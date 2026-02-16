@@ -278,7 +278,44 @@ pre{
     padding: 50px 50px 50px 50px;
 }
 
-#anime{
+.proCard{
+    height: 280px;
+    width: 210px;
+    background-color: rgb(150, 184, 250);
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+.pro-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proCard h1{
+    font-size: 30px;
+    color: balck;
+    margin-top: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+.proCard p {
+    font-size: 16px;
+    color: rgb(50, 48, 48);
+    margin: 16px ;
+}
+
+.proCard button{
+    background-color: rgb(77, 32, 240);
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+/* #anime{
     animation-name: pcard_anime;
     animation-iteration-count: infinite;
     animation-direction: normal;
@@ -294,7 +331,7 @@ pre{
     100%{
         transform: translateY(0);
     }
-}
+} */
 
 #heading{
     /* align-self: baseline; */
