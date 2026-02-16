@@ -70,14 +70,14 @@ button{
     border-radius: 20px;
     color: white;
     margin-right: 30px;
-    height: 30px;
-    width: 80px;
+    height: 40px;
+    width: 90px;
 }
 
 #hi{
-    font-size: 40px;
+    font-size: 48px;
     text-align: center;
-    color: rgb(244, 155, 225);
+    /* color: rgb(244, 155, 225); */
 }
 
 #body{
@@ -118,7 +118,7 @@ p{
     display: flex;
     position: absolute;
     top: 450px;
-    left: 400px;
+    left: 350px;
 }
 
 #content{
@@ -313,6 +313,7 @@ pre{
     position: relative;
     top: 500px;
     padding: 50px 50px 50px 50px;
+     /* background: linear-gradient( to right , rgb(2, 2, 95) ,  rgb(41, 41, 153) , rgb(80, 80, 202) , rgb(79, 79, 254)); */
 }
 
 form{
@@ -324,6 +325,8 @@ form{
 
 input{
     background-color: rgb(202, 202, 248);
+    color: black;
+    height: 40px;
     border-radius: 6px;
     border: 2px solid grey;
     gap: 4px;
@@ -332,6 +335,8 @@ input{
 textarea{
     background-color: rgb(202, 202, 248);
     border-radius: 6px;
+    height: 90px;
+    color: black;
     border: 2px solid grey;
     gap: 4px;
 }
@@ -342,7 +347,7 @@ textarea{
 }
 
 #con{
-    font-size: 50px;
+    font-size: 70px;
     font-style: bold;
     margin-top: 50px;
 }
@@ -446,3 +451,7 @@ textarea{
          transform: rotate(180deg);
     }
 }
+
+/* img {
+    background-image: cover;
+} */
