@@ -93,6 +93,8 @@ button{
     background-color: rgb(95, 95, 179);
     height: 400px;
     width: 400px;
+    background-image: url("./imgaes/protImg.jpeg");
+    background-size: contain;
 }
 
 #intro{

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const About = () => {
 
@@ -29,6 +30,7 @@ const About = () => {
 
   return (
         <div className='container' style={myStyle}>
+            <Navbar title="TextUtils"/>
             <h1>About Us</h1>
         <div className="accordion" id="accordionPanelsStayOpenExample">
         <div className="accordion-item">

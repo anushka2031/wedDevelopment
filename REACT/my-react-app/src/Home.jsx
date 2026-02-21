@@ -132,7 +132,7 @@ const Home = ({cart,SetCart,  apiData,SetData,filteredData,SetFilteredData}) => 
     <>
      <Link  to={'/cart'}>  
        <button>add to Cart {cart.length}</button>
-       </Link>
+      </Link>
     <div>
      
       <button onClick={fun1}>acs</button>
